@@ -106,3 +106,32 @@ nav a:hover::before{
     width: 100%;
 }
 
+
+.name ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.name li {
+    color: blueviolet;
+    left: 100px;
+    display: inline-block;
+    margin-left: 75px;
+    position: relative;
+}
+
+.name2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.name2 li {
+    color: blueviolet;
+    left: 100px;
+    display: inline-block;
+    margin-left: 80px;
+    position: relative;
+}
+
