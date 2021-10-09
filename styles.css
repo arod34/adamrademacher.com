@@ -6,6 +6,46 @@
     
 }
 
+.pictures {
+    margin : 0;
+    width: 100%;
+    
+}
+
+.pictures ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pictures li {
+    left: 100px;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+}
+
+.pictures2 {
+    margin : 0;
+    width: 100%;
+    
+}
+
+.pictures2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pictures2 li {
+    left: 100px;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    padding-top: 50px;
+    
+}
+
 header {
     background: violet;
 }
