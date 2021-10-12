@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam's Horoscope Corner</title>
     <link rel="stylesheet" href="styles.css"></link>
+    <script defer src="scripts.js"></script>
 </head>
 <body style="background-color: rgb(29, 28, 28);">
     
@@ -18,7 +19,6 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="About.html">About</a></li>
                     <li><a href="LoveChecker.html">Love Checker</a></li>
-                    <li><a href="Signs.html">Signs</a></li>
                     <li><a href="Explore.html">Explore</a></li>
                 </ul>
             </nav>
@@ -30,46 +30,136 @@
     <br>
     <br>
     <br>
+   
     <div class="pictures">
         <ul>
-            <li><img src="pics/aquarius.png"></img></li>
-            <li><img src="pics/pisces.png"></img></li>
-            <li><img src="pics/aries.png"></img></li>
-            <li><img src="pics/tarus.png"></img></li>
-            <li><img src="pics/gemini.png"></img></li>
-            <li><img src="pics/cancer.png"></img></li>
+            <button data-pic-target="#aquarius" class="zodiac"><li><img src="pics/aquarius.png"></img></li></button>
+            <button data-pic-target="#pisces" class="zodiac"><li><img src="pics/pisces.png"></img></li></button>
+            <button data-pic-target="#aries" class="zodiac"><li><img src="pics/aries.png"></img></li></button>
+            <button data-pic-target="#tarus" class="zodiac"><li><img src="pics/tarus.png"></img></li></button>
+            <button data-pic-target="#gemini" class="zodiac"><li><img src="pics/gemini.png"></img></li></button>
+            <button data-pic-target="#cancer" class="zodiac"><li><img src="pics/cancer.png"></img></li></button>
         </ul>
     </div>
-    <div class="name">
-        <ul>
-            <li>aquarius 01/20-02/19</li>
-            <li>pisces 02/20-03/20</li>
-            <li>aries 03/21-04/19</li>
-            <li>taurus 04/21-05/20</li>
-            <li>gemini 05/21-06/20</li>
-            <li>cancer 06/21-07/22</li>
-        </ul>
+    <div class="pic" id="aquarius">
+        <div class="pic-header">
+            <div class="title">Aquarius --> 01/20-02/19</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
+    </div>
+    <div class="pic" id="pisces">
+        <div class="pic-header">
+            <div class="title">Pisces --> 02/20-03/20</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
+    </div>
+    <div class="pic" id="aries">
+        <div class="pic-header">
+            <div class="title">Aries --> 03/21-04/19</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
+    </div>
+    <div class="pic" id="tarus">
+        <div class="pic-header">
+            <div class="title">Taurus --> 04/21-05/20</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
+    </div>
+    <div class="pic" id="gemini">
+        <div class="pic-header">
+            <div class="title">Gemini --> 05/21-06/20</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
+    </div>
+    <div class="pic" id="cancer">
+        <div class="pic-header">
+            <div class="title">Cancer --> 06/21-07/22</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
     </div>
     <div class="pictures2">
         <ul>
-            <li><img src="pics/leo.png"></img></li>
-            <li><img src="pics/virgo.png"></img></li>
-            <li><img src="pics/libra.png"></img></li>
-            <li><img src="pics/scorpio.png"></img></li>
-            <li><img src="pics/saggitarius.png"></img></li>
-            <li><img src="pics/capricorn.png"></img></li>
+            <button data-pic-target="#leo" class="zodiac"><li><img src="pics/leo.png"></img></li></button>
+            <button data-pic-target="#virgo" class="zodiac"><li><img src="pics/virgo.png"></img></li></button>
+            <button data-pic-target="#libra" class="zodiac"><li><img src="pics/libra.png"></img></li></button>
+            <button data-pic-target="#scorpio" class="zodiac"><li><img src="pics/scorpio.png"></img></li></button>
+            <button data-pic-target="#sagittarius" class="zodiac"><li><img src="pics/saggitarius.png"></img></li></button>
+            <button data-pic-target="#capricorn" class="zodiac"><li><img src="pics/capricorn.png"></img></li></button>
         </ul>
     </div>
-    <div class="name2">
-        <ul>
-            <li>leo 07/23-08/22</li>
-            <li>virgo 08/23-09/22</li>
-            <li>libra 09/23-10/22</li>
-            <li>scorpio 10/23-11/22</li>
-            <li>sagittarius 11/23-12/21</li>
-            <li>capricorn 12/22-01/19</li>
-        </ul>
+    <div class="pic" id="leo">
+        <div class="pic-header">
+            <div class="title">Leo --> 07/23-08/22</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
+    </div>
+    <div class="pic" id="virgo">
+        <div class="pic-header">
+            <div class="title">Virgo --> 08/23-09/22</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
+    </div>
+    <div class="pic" id="libra">
+        <div class="pic-header">
+            <div class="title">Libra --> 09/23-10/22</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
+    </div>
+    <div class="pic" id="scorpio">
+        <div class="pic-header">
+            <div class="title">Scorpio --> 10/23-11/22</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
+    </div>
+    <div class="pic" id="sagittarius">
+        <div class="pic-header">
+            <div class="title">Sagittarius --> 11/23-12/21</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
+    </div>
+    <div class="pic" id="capricorn">
+        <div class="pic-header">
+            <div class="title">Capricorn --> 12/21-01/19</div>
+            <button data-close-button class="close-button">&times</button>
+        </div>
+        <div class="pic-decscription">
+        
+        </div>
     </div>
     
+    <div id="overlay"></div>
 </body>
 </html>
