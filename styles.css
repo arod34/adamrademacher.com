@@ -219,10 +219,9 @@ nav a:hover::before{
 .firstDate {
     font-size: 1.25rem;
     color: white;
-    left: 300px;
-    top: 75px;
-    display: inline-block;
-    margin-left: 100px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 150px;
     position: relative;
     
 }
@@ -235,3 +234,17 @@ nav a:hover::before{
     margin-right: 100px;
     margin-top: 10px;
 }
+
+#loveluck {
+    font-size: 1.25rem;         
+    color: white;
+    border:1px solid blueviolet;
+    border-radius: 10px;
+    width: 500px;
+    height: 800px;
+    margin-right: 200px;
+    margin-top: 10px; 
+    float: right;
+}
+
+

@@ -23,6 +23,7 @@ overlay.addEventListener('click', () =>{
     })
 })
 
+
 function openPic(pic){
     if (pic == null) return;
     pic.classList.add('active');
