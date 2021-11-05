@@ -213,3 +213,25 @@ nav a:hover::before{
     font-size: 1.25rem;
     width:80%;
 }
+
+
+
+.firstDate {
+    font-size: 1.25rem;
+    color: white;
+    left: 300px;
+    top: 75px;
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+    
+}
+
+.lovepic{
+    float:right;
+}
+
+.lovepic img{
+    margin-right: 100px;
+    margin-top: 10px;
+}
