@@ -245,6 +245,10 @@ nav a:hover::before{
     margin-right: 200px;
     margin-top: 10px; 
     float: right;
+    padding: 10px 15px;
 }
 
+#loveluck-header{
+    border-bottom: 1px solid blueviolet;
+}
 
