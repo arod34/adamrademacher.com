@@ -57,7 +57,7 @@ function loveDescription(randomNum){
     setTimeout( function () {
         if (dateOne == "" || dateTwo == ""){
             document.getElementById("lovedescription2").innerHTML = '';
-            document.getElementById("lovedescription2").innerHTML = "Please input both dates to use the love checker calculator.";
+            document.getElementById("lovedescription2").innerHTML = "Error please input both dates to use the love checker calculator.";
         }
 
         else{
