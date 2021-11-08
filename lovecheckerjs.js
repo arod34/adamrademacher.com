@@ -66,6 +66,7 @@ function loveDescription(randomNum){
 
                 document.getElementById("lovedescription2").innerHTML = '';
                 document.getElementById("lovedescription2").innerHTML = loveDesc[3];
+                picture = 0;
             }
 
             else {

@@ -370,6 +370,12 @@ var dates = [
     
 ];
 
+// format is overall luck, lucky spot, love luck , and lucky item.
+var overallLuck= [
+    'You may want to stay in tonight,Cathedral,Make tea,Bobblehead',
+    's,d,f,g,'
+];
+
 var signs = [
     'Aquarius',
     'Pisces',
@@ -386,29 +392,18 @@ var signs = [
 
 ];
 
-var month = [
-    '01',
-    '02',
-    '03',
-    '04',
-    '05',
-    '06',
-    '07',
-    '08',
-    '09',
-    '10',
-    '11',
-    '12'
-];
+
 
 rightButton.addEventListener('click', () =>{
     d = nextDateRight();
     addingZodiac(d);
+    addingLuckDesc();
 })
 
 leftButton.addEventListener('click', () =>{
     d = nextDateLeft();
     addingZodiac(d);
+    addingLuckDesc();
 })
 
 function nextDateRight(){
@@ -510,4 +505,28 @@ function addingZodiac(date){
     document.getElementById('ExploreDates').innerHTML = '';
     document.getElementById('ExploreDates').innerHTML = date + ' ' + zodiac;
     
+}
+
+
+function addingLuckDesc(){
+    var num = 0;
+    var currDate = document.getElementById('ExploreDates').innerText;
+    currDate = currDate.split(' ');
+    for (let i = 0; i < dates.length; i++){
+        if (currDate[0] == dates[i]){
+            num = i;
+        }
+    }
+
+    luck = overallLuck[num].split(',');
+
+    // adding all luck details for date
+    document.getElementById('overall').innerHTML = '';
+    document.getElementById('overall').innerHTML = luck[0];
+    document.getElementById('place').innerHTML = '';
+    document.getElementById('place').innerHTML = luck[1];
+    document.getElementById('lovely').innerHTML = '';
+    document.getElementById('lovely').innerHTML = luck[2];
+    document.getElementById('item').innerHTML = '';
+    document.getElementById('item').innerHTML = luck[3];
 }

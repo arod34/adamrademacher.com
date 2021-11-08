@@ -266,15 +266,67 @@ nav a:hover::before{
 }
 
 #right{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-right: 10px;
     float: right;
     cursor: pointer;
 }
 
 #left{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 10px;
     float: left;
     cursor: pointer;
+}
+
+.overallLuck{
+    font-size: 1.25rem;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    width: 1980px;
+    max-width: 96.5%;
+    height: 100px;
+    color:white;
+    top: 550px;
+    left: 25px;
+    position: relative;
+}
+.favPlace{
+    font-size: 1.25rem;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    width: 1980px;
+    max-width: 40%;
+    height: 100px;
+    color:white;
+    left: 1100px;
+    bottom: 50px;
+    position: relative;
+}
+
+.lovelyLuck{
+    font-size: 1.25rem;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    width: 1980px;
+    max-width: 40%;
+    height: 100px;
+    color:white;
+    left: 1100px;
+    bottom: 0px;
+    position: relative;
+}
+
+
+.luckItem{
+    font-size: 1.25rem;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    width: 1980px;
+    max-width: 40%;
+    height: 100px;
+    color:white;
+    left: 1100px;
+    top: 75px;
+    position: relative;
 }
