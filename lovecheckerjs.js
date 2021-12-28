@@ -1,4 +1,5 @@
 const loveButton = document.getElementById('loveluckbutton');
+var audio = new Audio("Blip_Select.wav");
 var img = document.getElementById('pic1');
 var loveDesc = [
 
@@ -61,7 +62,7 @@ function loveDescription(randomNum){
         }
 
         else{
-
+            audio.play();
             if (dateOne == "2000-10-19" || dateTwo == "2000-10-19"){
 
                 document.getElementById("lovedescription2").innerHTML = '';
@@ -83,5 +84,6 @@ function loveDescription(randomNum){
         img.src = lovePics[picture];
 
     }, 2000);
+   
 
 }
